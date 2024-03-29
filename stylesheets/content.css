@@ -1,0 +1,683 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+    cursor: url(hand.svg), auto; 
+    
+}
+
+@font-face {
+    font-family: "Aeroport";
+    src: url("../fonts/Aeroport.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Aeroport-Light";
+    src: url("../fonts/Aeroport-Light.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+}
+@font-face {
+    font-family: "AeroportMono";
+    src: url("../fonts/AeroportMono.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+}
+
+p{
+    font-family: 'Aeroport';
+    font-size: 4vw;
+}
+
+h1{
+    font-family: "Aeroport";
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 400;
+    height: normal;
+}
+h2{
+    font-family: "Aeroport";
+    font-style: normal;
+}
+
+/* БЛОК 1 */
+.block1{
+    background-color: #FF2F9F;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    margin-left: 0.3vw;
+    font-size: 4vw;
+}
+.header2{
+    display: flex;
+    margin-right: 0.3vw;
+    font-size: 4vw;
+}
+.arrow{
+    width: 30vw;
+}
+
+/* БЛОК 2 */
+.block2{
+    display: flex;
+    height: 40vw;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+}
+
+.right{
+    width: 70%;
+}
+
+.head1{
+    display: flex;
+    width: 100%;
+    background-color: #C7FF51;
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.txtnumber{
+    font-family: "AeroportMono";
+    color: #D9D9D9;
+    background-color: #000000;
+}
+.txtblue1{
+    font-family: "Aeroport";
+    font-style: normal;
+    font-size: 8vw;
+    font-weight: 400;
+    height: normal;
+
+    color: #060FF0;
+    margin-bottom: -0.1vw;
+}
+
+.txtpink{
+    font-family: "Aeroport";
+    color: #FB95D2;
+    background-color: #FF2F9F;
+}
+
+.blueline{
+    background-color: #060FF0;
+    height: 1vw;
+    position: relative;
+}
+
+
+.backuzor{
+    width: 100%;
+    margin-left: -1vw;
+}
+
+.drag1{
+    position: absolute;
+    height: 11vw;
+    width:11vw;
+    background-color: #060FF0;
+    border-radius: 50%;
+    top: 29vw;
+    left: 48vw;
+
+}
+.drag2{
+    position: absolute;
+    height: 11vw;
+    width:11vw;
+    background-color: #060FF0;
+    border-radius: 50%;
+    top: 21vw;
+    left: 69vw;
+}
+.drag3{
+    position: absolute;
+    height: 11vw;
+    width:11vw;
+    background-color: #060FF0;
+    border-radius: 50%;
+    top: 29vw;
+    left: 90vw;
+}
+
+/* кот с кругами */
+.cat{
+    margin-left: -10px;
+    position: absolute;
+    height: 40vw;
+    
+}
+
+.circles{
+    position: absolute;
+    height: 8vw;
+    width: 8vw;
+    background-color: #C7FF51;
+    border-radius: 50%;
+}
+
+.circle1{
+    top: 10vw;
+    left: -1vw;
+}
+.circle2{
+    top: 5vw;
+    left: 25vw;
+}
+.circle3{
+    top: 23vw;
+    left: 10vw;
+}
+.circle4{
+    top: -3vw;
+    left: 8vw;
+}
+.circle5{
+    top: 15vw;
+    left: 18vw;
+}
+.circle6{
+    top: 28vw;
+    left: 15vw;
+}
+.circle7{
+    bottom: 10vw;
+    left: -5vw;
+}
+.circle8{
+    bottom: 15vw;
+    left: 25vw;
+}
+.circle9{
+    top: 35vw;
+    left: 3vw;
+}
+
+#imgcircles{
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+    height: 40vw;
+    z-index: 10;
+}
+
+/* БЛОК 3 */
+.block3{
+    display: flex;
+    position: relative;
+    height: 45vw;
+    width: 100%;
+    background-color: #C7FF51;
+}
+#uzor2{
+    height: 22.23vw;
+    z-index: 1;
+}
+.rev1, rev2{
+    height: 22.23vw;
+}
+
+.left1{
+    background-color: #000000;
+    width: 70%;
+    overflow: hidden;
+}
+.num2{
+    height: 12vw;
+    display: flex;
+    overflow: hidden;
+    margin-top: -0.2vw;
+}
+.frame1{
+    width: 100%;
+    height: 12vw;
+}
+.txtnumber2{
+    font-family: "AeroportMono";
+    color: #D9D9D9;
+    
+    width: 30%;
+    margin-top: -0.2vw;
+}
+.txtpink2{
+    font-family: "Aeroport";
+    color: #FB95D2;
+    background-color: #060FF0;
+}
+
+#uzor3{
+    position: absolute;
+}
+.picture1, picture2{
+    height: 45.1vw;
+}
+
+/* ТРИ СТРЕЛКИ */
+.threestrelki{
+    position: relative;
+    overflow: hidden;
+}
+
+.arrow30{
+ position: absolute;
+ width: 33.3vw;
+ margin-left: 30vw;
+ margin-top: 2vw;
+ animation: arrow30 1.9s ease-in-out infinite;
+}
+@keyframes arrow30{
+    0%{ transform: translateX(50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(50%);}
+}
+
+.arrow31{
+ position: absolute;
+ width: 33.3vw;
+ margin-left: -10vw;
+ margin-top: 6vw;
+ animation: arrow31 1.9s ease-in-out infinite;
+}
+@keyframes arrow31{
+    0%{ transform: translateX(-50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(-50%);}
+}
+    
+
+.arrow32{
+    position: absolute;
+    width: 33.3vw;
+    margin-left: -20vw;
+    margin-top: 1vw;
+    animation: arrow32 1.9s ease-in-out infinite;
+}
+@keyframes arrow32{
+    0%{ transform: translateX(-50%);}
+    50%{ transform:  translateX(0%);}
+    100%{ transform: translateX(-50%);}
+}
+
+
+
+/* БЛОК 4 */
+.block4{
+    display: flex;
+    position: relative;
+    height: 46.8vw;
+    width: 100%;
+    
+}
+
+.left2{
+    width: 70%;
+    position: relative;
+    overflow: hidden;
+    cursor: url(nothand.svg), auto; 
+}
+.carpet{
+    width: 100%;
+    
+}
+#dustoncarpet{
+    position: absolute;
+}
+.dust{
+    position: absolute;
+    background-image: url('./img/durt.svg');
+    height: 20vw;
+}
+
+.dust1{
+    top: 5vw;
+    left: 13vw;
+
+}
+.dust2{
+    top: 21vw;
+    left: 30vw;
+}
+.dust3{
+    top: 29vw;
+    left: 52vw;
+}
+.dust4{
+    top: -1vw;
+    left: 45vw;
+}
+.dust5{
+    top: 25vw;
+    left: -5vw;
+}
+.dust6{
+    top: 35vw;
+    left: 8vw;
+}
+.dust7{
+    top: 2vw;
+    left: 24vw;
+
+}
+
+
+.right2{
+    background-color: #C7FF51;
+    position: relative;
+    width: 30%;
+}
+.txtnumber3{
+    font-family: "AeroportMono";
+    color: #D9D9D9;
+    background-color: #000000;
+}
+
+.girland{
+    height: 17.8vw;
+    position: relative;
+    overflow: hidden;
+}
+.littlegirl{
+    width: 100%;
+    position: absolute;
+}
+.pinky{
+    width: 33.8%;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 18vw;
+}
+
+.txtpink3{
+    font-family: "Aeroport";
+    color: #FF2F9F;
+   margin-top: 9vw;
+}
+.txtpink4{
+    font-family: "Aeroport";
+    color: #FB95D2;
+    
+    font-size: 8vw;
+    margin-top: 1vw;
+    justify-content: center;
+}
+.head4{
+    position: absolute;
+    background-color: #060FF0;
+    height: 9vw;
+    width: 100%;
+}
+
+/* БЛОК 5 */
+.block5{
+    position: relative;
+    display: flex;
+    height: 16.2vw;
+    width: 100%;
+}
+/* ГЛАЗА */
+.move-area{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 33vw;
+    background-color: #FF1393;
+}
+
+.eye{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 16.2vw;
+    background: rgb(249, 255, 255);
+    width: 16.2vw;
+}
+  
+.eye:after{
+    position: absolute;
+    bottom: 5vw;
+    right: 1vw;
+    height: 5vw;
+    width: 5vw;
+    background-color: black;
+    border-radius: 50%;
+    content: "";
+}
+/* ДВЕ СТРЕЛКИ */
+.twostrelki{
+    position: relative;
+}
+.arrow33{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    width: 12vw;
+    animation: arrowup1 1.9s ease-in-out infinite;
+   }
+@keyframes arrowup1{
+       0%{ transform: translateX(0%);}
+       50%{ transform:  translateX(-10%);}
+       100%{ transform: translateX(0%);}
+}
+       
+.arrow34{
+    position: absolute;
+    width: 12vw;
+    margin-top: 10vw;
+    margin-left: 12vw;
+    animation: arrowup1 1.9s ease-in-out infinite;
+}
+@keyframes arrowup1{
+    0%{ transform: translateX(0%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(0%);}
+}
+
+.blueback{
+    height: 16.2vw;
+}
+.anim1{
+    height: 16.2vw;
+    margin-left: -67vw;
+}
+
+
+/* БЛОК 6 */
+.block6{
+    display: flex;
+    position: relative;
+    height: 46.8vw;
+    width: 100%;
+    overflow: hidden;
+}
+.sixttext{
+    display: flex;
+    overflow: hidden;
+}
+.txtpink5{
+    position: relative;
+    font-size: 8vw;
+    margin-top: -0.3vw;
+    font-family: "Aeroport";
+    color: #060FF0;
+    background-color: #C7FF51;
+    height: 12vw;
+    width: 65vw;
+    align-content: center;
+    justify-content: center;
+}
+.txtnumber4{
+    position: relative;
+    font-family: "AeroportMono";
+    color: #D9D9D9;
+    background-color: #000000;
+    font-size: 8vw;
+    margin-left: -1vw;
+    width: 30vw;
+    align-content: center;
+}
+
+.lamp{
+    width: 90vw;
+    
+}
+.rugs{
+    position: absolute;
+    
+}
+#carpets{
+    position: absolute;
+}
+.rug01{
+    width: 15vw;
+    margin-left: 5vw;
+}
+.rug02{
+    width: 20vw;
+    margin-left: 25vw;
+}
+.rug03{
+    width: 20vw;
+    margin-left: 40vw;
+    margin-top: -5vw;
+}
+.rug04{
+    width: 25vw;
+    margin-left: 50vw;
+    margin-top: 6vw;
+    
+}
+.rug05{
+    width: 26vw;
+    margin-left: 30vw;
+    
+}
+.rug06{
+    width: 18vw;
+    margin-left: 60vw;
+    
+}
+.rug07{
+    width: 20vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+}
+.rug08{
+    width: 32vw;
+    margin-top: 1vw;
+}
+
+/* БЛОК 7 */
+.block7{
+    display: flex;
+    position: relative;
+    height: 16vw;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.what{
+    height: 16vw;
+    width: 100%;
+}
+.what2{
+    height: 16vw;
+}
+/* ДВЕ СТРЕЛКИ2 */
+.twostrelki2{
+    position: relative;
+}
+.arrowdown{
+    position: absolute;
+    margin-left: -6vw;
+    margin-top: 2vw;
+    width: 28vw;
+    animation: arrowdown 1.9s ease-in-out infinite;
+   }
+@keyframes arrowdown{
+       0%{ transform: translateX(0%);}
+       50%{ transform:  translateX(-10%);}
+       100%{ transform: translateX(0%);}
+}
+       
+.arrowdown2{
+    position: absolute;
+    width: 28vw;
+    margin-top: 10vw;
+    margin-left: -1vw;
+    animation: arrowdown 1.9s ease-in-out infinite;
+}
+@keyframes arrowdown{
+    0%{ transform: translateX(0%);}
+    50%{ transform:  translateX(-30%);}
+    100%{ transform: translateX(0%);}
+}
+
+/* БЛОК 8 */
+.txtpink6{
+    font-family: "Aeroport";
+    color: #FB95D2;
+    background-color: #060FF0;
+    font-size: 7vw;
+}
+
+/* БЛОК 9 */
+.block9{
+    display: flex;
+    position: relative;
+    height: 31vw;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.jin{
+    height: 40vw;
+    margin-top: 1vw;
+    margin-left: 70vw;
+    animation: jin 2.6s ease-in-out infinite;
+}
+
+@keyframes jin{
+    0%{ transform: translateX(100%);}
+    100%{ transform: translateX(-320%);}
+}
+.jin:hover{
+    animation-play-state: paused;
+}
+
+/* БЛОК 10 */
+.block10{
+    background-color: #FF2F9F;
+    height: 5vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer{
+    margin-left: 0.3vw;
+    font-size: 4vw;
+}
+.footer2{
+    display: flex;
+    margin-right: 0.3vw;
+    font-size: 4vw;
+}
+.arrow{
+    width: 30vw;
+}
